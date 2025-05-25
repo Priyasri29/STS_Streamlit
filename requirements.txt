@@ -3,5 +3,5 @@ pandas>=1.3
 numpy>=1.21
 scikit-learn>=1.0
 sentence-transformers>=2.2
-tensorflow>=2.9
-tensorflow-hub>=0.12
+tensorflow==2.9.1
+tensorflow-hub==0.12.0

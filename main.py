@@ -70,8 +70,8 @@ def compute_similarity(text1, text2):
         'Hybrid Weighted Similarity Score': hybrid_score
     }
 
-st.title("Semantic Textual Similarity App - Lightweight Version")
-st.markdown("Compute similarity using SBERT and TF-IDF only, no TensorFlow needed.")
+st.title("Semantic Textual Similarity App")
+st.markdown("Compute similarity using SBERT and TF-IDF.")
 
 text1 = st.text_area("Enter Text 1:", height=150)
 text2 = st.text_area("Enter Text 2:", height=150)
